@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>BOFA_TestSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>e5200f33-d43e-4b52-9073-0ede9895f50e</testSuiteGuid>
+   <testCaseLink>
+      <guid>d0764717-7c68-4995-b1cb-8f25de8ebff4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BOFA_LOGIN</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>945b76b0-d93a-4bf4-82df-6b6ce56c9c21</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/BOFA_SAMPLE_EXCEL_DATA</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>945b76b0-d93a-4bf4-82df-6b6ce56c9c21</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>URL</value>
+         <variableId>3436b8a9-e980-4fc0-beed-1b2f82f8cc5c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>945b76b0-d93a-4bf4-82df-6b6ce56c9c21</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>17ea8fd2-5082-41e5-bcfb-f2eb23111660</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>945b76b0-d93a-4bf4-82df-6b6ce56c9c21</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>2d8be059-d19f-4d4b-9e01-745cccd8e903</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
